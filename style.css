@@ -56,15 +56,15 @@ body>main>div>div>a{
     color: whitesmoke;      
     display: flex;
     align-items: center;    
-    font-size: 1.5em;
+    font-size: 1.7em;
     border-radius: 10px;
     padding: 10px;    
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px; 
 }
 body>main>div>div>a>img{
-    width: 3vh;
-    height: 3vh;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     color: whitesmoke;    
 }
@@ -85,4 +85,10 @@ h1{
 }
 .whastapp{
     background:linear-gradient(45deg,#25D366, #089787 );
+}
+
+@media screen and (max-height: 650px){
+    .container{
+        height: 150vh;
+    }
 }
