@@ -107,3 +107,42 @@ body>main>div>div>a:hover{
         text-align: center;
     }
 }
+@media screen and (min-width: 1024px) {
+    .box{
+        width: auto;
+        display: grid;
+        grid-template-areas:
+        "a b"
+        "a b"
+        "c b";
+        padding: 20px;                   
+    }
+    .img{
+        justify-self: center;
+        width: 200px;
+        height: 200px;
+        grid-area: a;
+    }
+    .buttonContainer{
+        width: 250px;
+        align-self: stretch;        
+        grid-area: b;
+        display: flex;        
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .textContainer{
+        justify-self: center;        
+        grid-area: c;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    body>main>div>div>a{
+        margin: 0;
+        padding: 15px;
+        font-size: ;
+    }
+
+}
